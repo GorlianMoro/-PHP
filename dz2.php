@@ -4,7 +4,7 @@ echo "Число ".$x."<br>";
 
 $a = 1;
 $b = 1;
-
+$c = 0;
     do {
       if ($a > $x) {
         echo " задуманное число НЕ входит в числовой ряд";
@@ -12,14 +12,14 @@ $b = 1;
           echo "задуманное число входит в числовой ряд";
         }
         else {
-      $x = $a;
-      $x = $a + $b;
-      $b = $x;
+      $c = $a;
+      $c = $a + $b;
+      $b = $c;
     }
-    } while ($a == $x);
+  } while (true);
 ?>
 
-<!DOCTYPE html>
+<DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="utf-8">
