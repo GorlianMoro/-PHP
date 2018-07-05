@@ -13,8 +13,9 @@ $c = 0;
         }
         else {
       $c = $a;
-      $c = $a + $b;
+      $a = $a + $b;
       $b = $c;
+      break;
     }
   } while (true);
 ?>
